@@ -11,7 +11,7 @@ window.NCL_CONFIG = {
   /* Web app URL of the Google Apps Script (ends with /exec).
      Paste it between the quotes after deploying Code.gs
      (deploy it from the Krishna district Google account). */
-  apiUrl: "",
+  apiUrl: "https://script.google.com/macros/s/AKfycbzq7ZdhheQKiNrPfF_zZWsXPbZLVohffBIQ0Bhn2hS7tFL-kwWh2g69edZTl0DnrzGU/exec",
 
   /* Sub-divisions and their police stations, in the order they appear
      in the abstract (same as the SD sheet). */

@@ -6,7 +6,7 @@ window.NCL_CONFIG = {
   unitName: "KRISHNA DISTRICT POLICE",
   appTitle: "NEW CRIMINAL LAWS - 60 & 90 DAYS CASES",
   fromDate: "01-07-2024",            // shown in the abstract title
-  credit: "Designed & Developed by Kola.Bapuji, IT Core Team, Chittoor",
+  credit: "Designed & Developed by IT Core Team ",
 
   /* Web app URL of the Google Apps Script (ends with /exec).
      Paste it between the quotes after deploying Code.gs

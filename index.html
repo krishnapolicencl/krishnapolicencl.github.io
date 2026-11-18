@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NCL 60 &amp; 90 Days Cases - Krishna District Police</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<header class="top no-print">
+  <div class="brand">
+    <div class="unit" id="unitName"></div>
+    <h1 id="appTitle"></h1>
+  </div>
+  <div class="top-actions">
+    <label class="ason">As on <input type="date" id="asOn"></label>
+    <button class="btn ghost" id="adminBtn" type="button">Admin</button>
+  </div>
+</header>
+
+<main>
+  <div id="notice" class="notice no-print" hidden></div>
+
+  <nav class="nav no-print" id="nav" hidden>
+    <div class="seg" role="tablist" aria-label="Case type">
+      <button type="button" data-tab="60">60 Days Cases</button>
+      <button type="button" data-tab="90">90 Days Cases</button>
+      <button type="button" data-tab="g">UI - Grave/Non Grave</button>
+    </div>
+    <div class="subtabs" id="subtabs" role="tablist" aria-label="Report"></div>
+  </nav>
+
+  <div class="bar no-print" id="bar" hidden>
+    <div class="filters" id="filters"></div>
+    <div class="bar-actions">
+      <button class="btn" id="xlBtn" type="button">Download Excel</button>
+      <button class="btn" id="xlAllBtn" type="button">Download all reports</button>
+      <button class="btn" id="printBtn" type="button">Print / PDF</button>
+    </div>
+  </div>
+
+  <section id="view" aria-live="polite"></section>
+  <p class="meta no-print" id="meta"></p>
+</main>
+
+<footer class="foot" id="credit"></footer>
+
+<dialog id="adminDlg">
+  <form method="dialog" class="dlg-head">
+    <h2>Admin</h2>
+    <button class="x" aria-label="Close">×</button>
+  </form>
+  <div id="adminBody"></div>
+</dialog>
+
+<script src="assets/config.js"></script>
+<script src="assets/core.js"></script>
+<script src="assets/grave.js"></script>
+<script src="vendor/xlsx.full.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
